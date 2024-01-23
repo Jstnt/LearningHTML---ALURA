@@ -1,0 +1,77 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles (bullets/numbers) */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Remove default padding */
+ul,
+ol,
+dl {
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove text-decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove outline on focus */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+/* Remove border on input type "number" */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide scrollbar on Firefox */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar on Webkit/Blink */
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
