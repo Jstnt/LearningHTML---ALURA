@@ -58,3 +58,7 @@ body{
   font-size: 14px;
   margin-top: 10px;
 }
+
+.section-playlist__button{
+  border-radius: 9999px;
+}
